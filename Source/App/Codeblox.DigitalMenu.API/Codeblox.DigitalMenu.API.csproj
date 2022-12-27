@@ -11,4 +11,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Codeblox.DigitalMenu.Communication\Codeblox.DigitalMenu.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\Codeblox.DigitalMenu.Exceptions\Codeblox.DigitalMenu.Exceptions.csproj" />
+    <ProjectReference Include="..\Codeblox.DigitalMenu.Domain\Codeblox.DigitalMenu.Domain.csproj" />
+    <ProjectReference Include="..\Codeblox.DigitalMenu.Infrastructure\Codeblox.DigitalMenu.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

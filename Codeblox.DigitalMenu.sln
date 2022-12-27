@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codeblox.DigitalMenu.Commun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codeblox.DigitalMenu.Exceptions", "Source\Shared\Codeblox.DigitalMenu.Exceptions\Codeblox.DigitalMenu.Exceptions.csproj", "{79C993FE-FAEE-4C2F-99A8-00F0AE42070F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{81FF62CE-8A26-42DF-BC08-7644815F263C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codeblox.DigitalMenu.Test", "Tests\Codeblox.DigitalMenu.Test\Codeblox.DigitalMenu.Test.csproj", "{AD831FD3-98AA-42C3-AD65-CD5AD7E9C598}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,10 @@ Global
 		{79C993FE-FAEE-4C2F-99A8-00F0AE42070F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79C993FE-FAEE-4C2F-99A8-00F0AE42070F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79C993FE-FAEE-4C2F-99A8-00F0AE42070F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD831FD3-98AA-42C3-AD65-CD5AD7E9C598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD831FD3-98AA-42C3-AD65-CD5AD7E9C598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD831FD3-98AA-42C3-AD65-CD5AD7E9C598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD831FD3-98AA-42C3-AD65-CD5AD7E9C598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{361A9512-395E-407B-8916-73AC441331D2} = {A4BDA0A6-9253-46F1-95CD-8552F988F60E}
@@ -64,5 +72,6 @@ Global
 		{A6BEB37E-09E0-4F09-8127-EF6E9CC9295D} = {A4BDA0A6-9253-46F1-95CD-8552F988F60E}
 		{27947270-239A-4988-B1E6-AEB028853057} = {A6BEB37E-09E0-4F09-8127-EF6E9CC9295D}
 		{79C993FE-FAEE-4C2F-99A8-00F0AE42070F} = {A6BEB37E-09E0-4F09-8127-EF6E9CC9295D}
+		{AD831FD3-98AA-42C3-AD65-CD5AD7E9C598} = {81FF62CE-8A26-42DF-BC08-7644815F263C}
 	EndGlobalSection
 EndGlobal
