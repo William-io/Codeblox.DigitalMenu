@@ -5,9 +5,6 @@ namespace Codeblox.DigitalMenu.Infrastructure.Migrations;
 
 public static class Database
 {
-    /// <summary>
-    /// Criar um banco caso não tenha, efetuando o test via dapper e criar conexao.
-    /// </summary>
     public static void CreateDatabase(string connectionWithoutDataBase, string nameDatabase)
     {
         using var connection = new SqlConnection(connectionWithoutDataBase);

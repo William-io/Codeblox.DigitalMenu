@@ -1,4 +1,5 @@
 using Codeblox.DigitalMenu.API.Settings;
+using Codeblox.DigitalMenu.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,3 +28,5 @@ app.MapControllers();
 UpData.UpdateDataBase();
 
 app.Run();
+
+app.MigrateDataBase();
