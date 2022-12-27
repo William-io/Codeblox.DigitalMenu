@@ -18,4 +18,8 @@
     <ProjectReference Include="..\Codeblox.DigitalMenu.Infrastructure\Codeblox.DigitalMenu.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
