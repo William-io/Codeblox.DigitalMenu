@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Codeblox.DigitalMenu.Communication\Codeblox.DigitalMenu.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\Codeblox.DigitalMenu.Exceptions\Codeblox.DigitalMenu.Exceptions.csproj" />
+    <ProjectReference Include="..\Codeblox.DigitalMenu.Domain\Codeblox.DigitalMenu.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
