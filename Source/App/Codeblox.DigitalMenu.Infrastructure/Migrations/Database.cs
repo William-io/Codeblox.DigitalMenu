@@ -1,7 +1,4 @@
-﻿using Dapper;
-using System.Data.SqlClient;
-
-namespace Codeblox.DigitalMenu.Infrastructure.Migrations;
+﻿namespace Codeblox.DigitalMenu.Infrastructure.Migrations;
 
 public static class Database
 {
