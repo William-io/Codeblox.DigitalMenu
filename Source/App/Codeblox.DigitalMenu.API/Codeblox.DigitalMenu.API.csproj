@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Using Include="Codeblox.DigitalMenu.API.Settings" />
+    <Using Include="Codeblox.DigitalMenu.Infrastructure" />
+
+    <Using Include="Codeblox.DigitalMenu.Domain.Extension" />
+    <Using Include="Codeblox.DigitalMenu.Infrastructure.Migrations" />
+
+
+
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>

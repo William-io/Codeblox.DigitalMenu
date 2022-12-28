@@ -1,8 +1,4 @@
-﻿using FluentMigrator.Runner;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace Codeblox.DigitalMenu.Infrastructure;
+﻿namespace Codeblox.DigitalMenu.Infrastructure;
 
 public static class MigrationExtension
 {

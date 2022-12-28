@@ -1,7 +1,4 @@
-using FluentMigrator;
-
 namespace Codeblox.DigitalMenu.Infrastructure.Migrations.Version;
-
 
 [Migration((long)SpecificVersionNumber.CreateUserTable, "Criar tabela usuario")]
 public class VersionData0000001 : Migration

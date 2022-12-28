@@ -1,10 +1,8 @@
-﻿using Microsoft.Extensions.Configuration;
-
-namespace Codeblox.DigitalMenu.Domain.Extension;
+﻿namespace Codeblox.DigitalMenu.Domain.Extension;
 
 public static class RepositoryExtension
 {
-    public static string GetConnectionString(this IConfiguration configurationManager)
+    public static string GetConnection(this IConfiguration configurationManager)
     {
         var connection = configurationManager.GetConnectionString("Connection");
         return connection;
@@ -14,5 +12,13 @@ public static class RepositoryExtension
     {
         var nameDatabase = configurationManager.GetConnectionString("NameDatabase");
         return nameDatabase;
+    }
+
+    public static string GetConnectionCompletParamenter(this IConfiguration configurationManager)
+    {
+        var connection = configurationManager.GetConnection();
+        var nameDatabase = configurationManager.GetNameDatabase();
+
+        return $"{connection}Database={nameDatabase}";
     }
 }
