@@ -24,8 +24,16 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-UpData.UpdateDataBase();
+UpdateBaseData();
 
 app.Run();
 
-app.MigrateDataBase();
+void UpdateBaseData()
+{
+    var connection = builder.Configuration.GetConnection();
+    var nameDatabase = builder.Configuration.GetNameDatabase();
+
+    Database.CreateDatabase(connection, nameDatabase);
+
+    app.MigrateDataBase();
+}
